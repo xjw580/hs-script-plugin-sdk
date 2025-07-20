@@ -1,6 +1,6 @@
-package club.xiaojiawei.bean
+package club.xiaojiawei.hsscriptpluginsdk.bean
 
-import club.xiaojiawei.Plugin
+import club.xiaojiawei.hsscriptpluginsdk.Plugin
 import javafx.beans.property.BooleanProperty
 import javafx.beans.property.SimpleBooleanProperty
 import javafx.beans.value.ChangeListener

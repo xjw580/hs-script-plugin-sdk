@@ -1,4 +1,4 @@
-package club.xiaojiawei.config
+package club.xiaojiawei.hsscriptpluginsdk.config
 
 /**
  * 插件可见范围

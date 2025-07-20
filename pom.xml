@@ -8,11 +8,12 @@
         <version>v4.8.0.1</version>
     </parent>
 
+    <groupId>com.github.xjw580</groupId>
     <artifactId>hs-script-plugin-sdk</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Hearthstone-Script-Plugin-SDK</name>
+    <name>hs-script-plugin-sdk</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -46,7 +47,7 @@
             <classifier>win</classifier>
         </dependency>
         <dependency>
-            <groupId>club.xiaojiawei</groupId>
+            <groupId>com.github.xjw580</groupId>
             <artifactId>hs-script-base</artifactId>
         </dependency>
     </dependencies>

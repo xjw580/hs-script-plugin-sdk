@@ -1,4 +1,4 @@
-package club.xiaojiawei
+package club.xiaojiawei.hsscriptpluginsdk
 
 import javafx.scene.layout.Pane
 
@@ -6,7 +6,7 @@ import javafx.scene.layout.Pane
  * @author 肖嘉威
  * @date 2024/9/8 16:37
  */
-sealed interface Plugin {
+interface Plugin {
     /**
      * 图形化插件描述
      */
@@ -54,9 +54,16 @@ sealed interface Plugin {
         "name: ${name()}, version: ${version()}, author: ${author()}, id: ${id()}, description: ${description()}"
 
     /**
-     * 使用的sdk版本
+     * 使用的卡牌sdk版本
+     * 如果没使用返回null
      */
-    fun sdkVersion(): String
+    fun cardSDKVersion(): String?
+
+    /**
+     * 使用的策略sdk版本
+     * 如果没使用返回null
+     */
+    fun strategySDKVersion(): String?
 
     /**
      * 初始化插件，装载插件前调用
